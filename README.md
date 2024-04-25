@@ -14,6 +14,7 @@ Este projeto consiste em desenvolver um site responsivo completo para uma empres
 - **Estruturação de páginas da web**: O site foi estruturado com HTML, garantindo uma boa semântica e acessibilidade.
 - **Criação de um cabeçalho e rodapé**: O site possui um cabeçalho e rodapé consistentes em todas as páginas.
 - **Uso de variáveis CSS**: As variáveis CSS foram utilizadas para facilitar a manutenção do design.
+- **Imagens geradas por inteligência artificial**: Todas as imagens utilizadas no site foram geradas por inteligência artificial para evitar problemas com direitos de imagem.
 
 ## Como Executar o Projeto
 
