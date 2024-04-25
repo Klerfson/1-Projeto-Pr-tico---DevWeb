@@ -19,7 +19,3 @@ Este projeto consiste em desenvolver um site responsivo completo para uma empres
 
 1. Clone o repositório para a sua máquina local usando `git clone`.
 2. Abra o arquivo `index.html` em seu navegador.
-
-## Contribuições
-
-Contribuições são sempre bem-vindas. Sinta-se à vontade para abrir uma issue ou fazer um pull request.
