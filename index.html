@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto cosmético</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header class="cabeçalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botão">
+            <label for="menu">
+                <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link__titulo">PÁGINA INICIAL</a></li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link">SOBRE</a></li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link">LOJA</a></li>
+                <li class="lista-menu__item"><a href="#" class="lista-menu__link">LOCALIZAÇÃO</a></li>
+            </ul>
+        </div>
+        <div class="container">
+            <img src="imagens/logo-cosmetic.svg" alt="Logo da cosmetic" class="container__imagem">
+            <span class="texto__cabeçalho">Cosmética Elegante</span>
+        </div>
+
+        <ul class="opções">
+            <li class="opeções__item"><a href="#" class="opções__link">PÁGINA INICIAL</a></li>
+            <li class="opeções__item"><a href="#" class="opções__link">SOBRE</a></li>
+            <li class="opeções__item"><a href="#" class="opções__link">LOJA</a></li>
+            <li class="opeções__item"><a href="#" class="opções__link">LOCALIZAÇÃO</a></li>
+        </ul>
+
+        <div class="container">
+            <a href="#"><img src="imagens/shopping-cart.svg" alt="Carrinho de compras" class="container__imagem"></a>
+            <a href="#"><img src="imagens/user.svg" alt="Meu perfil" class="container__imagem"></a>
+        </div>
+    </header>
+    <section class="banner1">
+        <div class="banner-texto">
+            <h1 class="banner__titulo1">Liberte Sua <br class="quebra_linha"> Beleza Interior</h1>
+            <div class="linha__separadora"></div>
+            <h2 class="banner__titulo2">Compre As Tendências Mais Quentes</h2>
+        </div>
+        <div class="imagem-banner">
+            <img src="imagens/A_woman.svg" alt="mulher em uma loja de consméticos">
+        </div>
+    </section>
+    <section class="banner2">
+        <div class="imagem-banner2">
+            <img src="imagens/cosmetic-produt.svg" alt="produtos de cosmetico em exposição">
+        </div>
+        <div class="banner2-texto">
+            <div class="banner2__titulo">
+                <h1 class="banner2__titulo_texto">SOBRE</h1>
+            </div>
+            <div class="linha__separadora2"></div>
+            <div class="banner2-paragrafo">
+                <p class="banner2-paragrafo_texto">
+                    Seja bem-vindo à Cosmética Elegante, onde a beleza encontra a individualidade. Nossa loja online foi cuidadosamente criada para oferecer as últimas tendências em cosméticos que refletem o seu estilo único.
+                    <br>
+                    <br>
+                    Compreendemos que a beleza vai além de produtos, é uma afirmação da sua personalidade, um reflexo do seu estado de espírito e uma expressão da sua criatividade.
+                    <br>
+                    <br>
+                    É por isso que selecionamos uma coleção de cosméticos e acessórios que permitem que você libere sua beleza pessoal e se expresse com confiança. 
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">LANÇAMENTOS</h2>`
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+  
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="imagens/produto1.svg" alt="produto 01"></div>
+                <div class="swiper-slide"><img src="imagens/produto2.svg" alt="produto 02"></div>
+                <div class="swiper-slide"><img src="imagens/produto3.svg" alt="produto 03"></div>
+                <div class="swiper-slide"><img src="imagens/produto4.svg" alt="produto 04"></div>
+                <div class="swiper-slide"><img src="imagens/produto5.svg" alt="produto 05"></div>            
+            </div>
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+  
+        </div>
+    </section>
+
+    <section class="localização">
+        <div class="localização__texto">
+            <h2>LOCALIZAÇÃO</h2>
+            <div class="três-pontos">
+                <span class="três-pontos1"></span>
+                <span class="três-pontos2"></span>
+                <span class="três-pontos3"></span>
+            </div>
+        </div>
+        <div class="localização__grupo">
+            <div class="localização-endereço">
+                <div class="localização-endereço__lista">
+                    <ul class="endereço">
+                        <li>Dois Unidos, Recife, PE, Brasil</li>
+                    </ul>
+                    <ul class="telefone">
+                        <li class="telefone">
+                            <a href="#">(81) 9 1234-5678</a>
+                        </li>
+                        <li class="email">
+                            <a href="mailto:exemplo@exemplo.com">
+                                cosmeticaelegante@cosmetic.com
+                            </a>
+                        </li>
+                        <li class="hora-funcionamento">
+                            Seg-Sex - 08:00-18:00
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="contate-nos">
+                <div>
+                    <input type="text" placeholder="Nome"class="contate-nos__caixas">                    
+                </div>
+                <div>
+                    <input type="text" placeholder="Telefone" class="contate-nos__caixas">
+                </div>
+                <div>
+                    <input type="text" placeholder="endereço" class="contate-nos__caixas">
+                </div>
+                <div>
+                    <input type="text" placeholder="Mensagem" class="contate-nos__mensagem">
+                </div>
+                <div>
+                    <button type="submit" class="botao">CONTATE-NOS</button>
+                </div>
+            </div>            
+        </div>
+
+        <div class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22350.314604838313!2d-34.927244566465475!3d-7.997412547379765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab177e12af268f%3A0xad8678e188b3a6f9!2sDois%20Unidos%2C%20Recife%20-%20PE!5e0!3m2!1spt-BR!2sbr!4v1710670800343!5m2!1spt-BR!2sbr" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+
+    </section>
+
+
+    <footer class="rodape">
+        <div class="rodape__texto">
+            <ul class="rodape__texto-lista">
+                <a href="#" class="rodape__texto-lista__link"><li>Pagina Inicial</li></a>
+                <a href="#" class="rodape__texto-lista__link"><li>Sobre</li></a>
+                <a href="#" class="rodape__texto-lista__link"><li>Loja</li></a>
+                <a href="#" class="rodape__texto-lista__link"><li>localização</li></a>
+            </ul>
+        </div>
+        <div class="rodape__direitos">
+            <p> Copyright © 2024 All rights reserved - Cosmética Elegante</p>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 1,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+            breakpoints: {
+                // Quando a largura da tela for maior ou igual a 1024px
+                1024: {
+                    slidesPerView: 3, // Exibe 3 slides por vez
+                },
+            },
+        });
+    </script>
+</body>
+</html>

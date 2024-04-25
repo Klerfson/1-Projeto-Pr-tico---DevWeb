@@ -1,0 +1,25 @@
+@import url("Styles/header.css");
+@import url("Styles/banner.css");
+@import url("Styles/carrossel.css");
+@import url("Styles/localizacao.css");
+@import url("Styles/footer.css");
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+
+:root{
+    --cor-de-fundo: #f6f6f6;
+    --branco: #FFFFFF;
+    --preto: #000000;
+    --laranja: #D87830;
+    --laranja-claro: #f7e3d4;
+    --marron: #562E10;
+
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: "Arvo", sans-serif;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}
